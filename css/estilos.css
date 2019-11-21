@@ -9,3 +9,10 @@ celeste #026fff;
 */
 
 @import url("fuentes.css");
+
+body
+{
+	font-family: 'sourcesans', sans-serif;
+	margin: 0px;
+	background: #E7E4E4;
+}
