@@ -16,3 +16,34 @@ body
 	margin: 0px;
 	background: #E7E4E4;
 }
+
+h1,h2,h3,h3,h4,h5,h6
+{
+	font-family: 'Fjalla One', sans-serif;
+	font-weight: normal;
+}
+
+h1
+{
+	font-size: 30px;
+	line-height: 150%;
+	letter-spacing: -.2px;
+	color: #000;
+}
+
+h1 strong
+{
+	color: #026fff;
+}
+
+h2
+{
+	color: #026fff;
+	text-transform:uppercase;
+
+}
+
+
+
+
+
