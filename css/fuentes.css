@@ -1,0 +1,18 @@
+@font-face
+{
+	font-family: sourcesans;
+	src:url(../fuentes/Source/Source-Regular.ttf);
+}
+
+@font-face
+{
+	font-family: source-light;
+	src:url(../fuentes/Source/Source-Italic.ttf);
+}
+
+@font-face
+{
+	font-family: source-Bold;
+	src:url(../fuentes/Source/Source-Bold.ttf);
+}
+
