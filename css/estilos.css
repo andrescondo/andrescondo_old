@@ -61,16 +61,53 @@ h2
 
 }
 
-.menu ol li
+ol li
 {
-	font-size: 20px;
-	display: flex;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
 }
 
 .link
 {
 	color:#fff ;
 	text-decoration: none;
+	display:flex;
+	font-size: 20px;
+	align-items: center;
 }
+.header a
+ {
+    height: inherit;
+    align-items: center;
+    display: block;
+    flex-direction: column;
+ }
+
+ .menu
+{
+	height: inherit;
+}
+
+.header ol
+{
+	display: flex;
+	height: inherit;
+}
+
+.header
+{
+	height: inherit;
+}
+
+a:hover
+{
+	background: #8de739;
+	color:#000;
+	padding: 7px 5px;
+	border-radius: 5px;
+
+}
+
 
 
