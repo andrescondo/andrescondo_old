@@ -192,6 +192,12 @@ a:hover
 {
 	color: #fff;
 }
+
+.event-list
+{
+	display: flex;
+	flex-wrap: wrap;
+}
 .event-list-title
 {
 	margin-left:20px;
@@ -200,7 +206,7 @@ a:hover
 .event
 {
 	margin:1%;
-	width: 48%;
+	width: 45%;
 	flex-shrink: 0;
 	border-radius: 10px;
 	overflow:hidden;
@@ -216,7 +222,7 @@ a:hover
 .event-detail
 {
 	margin: 20px 40px;
-	margin-top: -40;
+	margin-top: -40px;
 	background-color:#fff;
 	position: relative;
 	padding: 20px;
