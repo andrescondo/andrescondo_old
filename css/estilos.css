@@ -256,16 +256,16 @@ a:hover
 }
 
 .social-link.linkein {
-  background-image: url('../images/linkedin.svg');
+  background-image: url('../image/linkedin.svg');
 }
 .social-link.facebook {
-  background-image: url('../images/facebook.svg');
+  background-image: url('../image/facebook.svg');
 }
 .social-link.github {
-  background-image: url('../images/github.svg');
+  background-image: url('../image/github.svg');
 }
 .social-link.instagram {
-  background-image: url('../images/instagram.svg');
+  background-image: url('../image/instagram.svg');
 }
 
 .form-email input
