@@ -153,6 +153,8 @@ a:hover
 */	border-radius: 5px;
 
 }
+
+/*==========================FOOTER===========================*/
  .footer 
  {
  	color: #fff;
@@ -168,11 +170,17 @@ a:hover
 	color: #fff;
 }
 
+/*================================================*/
 .container
 {
 	max-width: 1000px;
 	flex: 1; /*Sirve para darle el 100% del espacio disponible*/
 	margin: 0px auto;
+	display: inherit;
+	justify-content: inherit;
+	align-items: inherit;
+	height: inherit;
+	flex-wrap: inherit;
 }
 
 
