@@ -230,6 +230,12 @@ a:hover
 	text-align: center; 	
 }
 
+.event img
+{
+	height: 200px;
+	object-fit: cover;
+}
+
 
 
 .contact {
