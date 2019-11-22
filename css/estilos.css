@@ -14,7 +14,7 @@ body
 {
 	font-family: 'sourcesans', sans-serif;
 	margin: 0px;
-	background: #E7E4E4;
+	background-color: #E7E4E4;
 }
 
 h1,h2,h3,h3,h4,h5,h6
@@ -25,7 +25,7 @@ h1,h2,h3,h3,h4,h5,h6
 
 h1
 {	
-	font-size: 30px;
+	font-size: 25px;
 	line-height: 1.5;
 	letter-spacing: -.2px;
 	color: #fff;
@@ -58,14 +58,14 @@ h2
 
 .hero-image
 {
-	width: 30%;
+	width: 40%;
 	height: 100%;
 	object-fit: ;
 }
 
 .portafolio
 {
-	background: #fafafa;
+	background: #E7E4E4;
 	padding: 20px;
 }
 
@@ -89,7 +89,7 @@ h2
 
 .project-imageContainer
 {
-	width: 50%;
+	width: 40%;
 }
 
 .project-imageContainer img
@@ -186,7 +186,7 @@ a:hover
 }
 .event-list-title
 {
-	margin.left:20px;
+	margin-left:20px;
 }
 .event
 {
@@ -207,7 +207,12 @@ a:hover
 
 .event-detail
 {
-
+	margin: 20px 40px;
+	margin-top: -40;
+	background-color:#fff;
+	position: relative;
+	padding: 20px;
+	text-align: center; 	
 }
 
 /*================================================*/
@@ -224,6 +229,40 @@ a:hover
 }
 
 
+.contact {
+  background-color: #2d2d2d;
+  color: white;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.social {
+}
+
+.social-link {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+  background-size: 50px 50px;
+  color: #fff;
+}
+
+.social-link.linkein {
+  background-image: url('../image/linkedin.svg');
+}
+.social-link.facebook {
+  background-image: url('../image/facebook.svg');
+}
+.social-link.github {
+  background-image: url('../image/github.svg');
+}
+.social-link.instagram {
+  background-image: url('../image/instagram.svg');
+}
 
 
 
