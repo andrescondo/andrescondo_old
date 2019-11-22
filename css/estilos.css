@@ -276,8 +276,16 @@ a:hover
 
 .form-email input
 {
-	padding: 10px;
+	border-color: gray;
+	border-style: solid;
+	padding: 10px 20px 10px 25px;
 	border-radius: 5px;
+	background-image:url(../image/envelope.svg); 
+	background-size: 15px 15px;
+	background-repeat:no-repeat;
+	background-position-y:center;
+	background-position-x:5px;   
+
 }
 
 .form-email button
