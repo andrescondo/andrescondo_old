@@ -98,7 +98,6 @@ h2
 .project-imageContainer
 {
 	width: 40%;
-	object-fit: cover;
 }
 
 .project-imageContainer img
