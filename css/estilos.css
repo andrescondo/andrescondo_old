@@ -165,9 +165,9 @@ figure
 	padding: 0px 10px;
 }
 
-a:hover
+a:hover 
 {
-	background: #8de739;
+	background-color: #8de739;
 	color:#000;
 	border-radius: 5px;
 
@@ -179,8 +179,9 @@ a:hover
  	color: #fff;
  	background-color:#1d2127;
  	display: flex;
+ 	text-align: center;
  	align-items: center;
- 	justify-content: space-between;
+ 	justify-content: center;
  	flex-wrap: wrap;
 }
 
@@ -255,16 +256,16 @@ a:hover
 }
 
 .social-link.linkein {
-  background-image: url('../image/linkedin.svg');
+  background-image: url('../images/linkedin.svg');
 }
 .social-link.facebook {
-  background-image: url('../image/facebook.svg');
+  background-image: url('../images/facebook.svg');
 }
 .social-link.github {
-  background-image: url('../image/github.svg');
+  background-image: url('../images/github.svg');
 }
 .social-link.instagram {
-  background-image: url('../image/instagram.svg');
+  background-image: url('../images/instagram.svg');
 }
 
 .form-email input
