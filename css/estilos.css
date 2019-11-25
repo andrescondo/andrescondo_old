@@ -381,6 +381,7 @@ a:hover
 
 @media screen and (max-width: 1023px) 
 {
+
   .event-list-title 
   {
     margin-left: 0;
@@ -395,10 +396,11 @@ a:hover
   }
   .hero 
   {
-    height: auto;
+    height: 40px;
     position: relative;
     overflow: hidden;
     padding: 2em;
+    font-size: 1.4em;
   }
   .hero-image 
   {
@@ -425,6 +427,16 @@ a:hover
 
 @media screen and (max-width: 767px) 
 {
+  .hero
+  {
+    height: 40px;
+  }
+
+  h1
+  {
+    font-size: .8em;
+  }
+
   h2 
   {
     font-size: 1.2em;
@@ -492,7 +504,8 @@ a:hover
   {
     width: auto;
     /* font-size: 10px; */
-}
+  }
+
   .project-title 
   {
     font-size: 1.5em;
@@ -500,7 +513,7 @@ a:hover
   }
   .event 
   {
-    width: auto;
+    width: 100%;
     flex-shrink: initial;
   }
 
@@ -516,9 +529,19 @@ a:hover
 
 @media screen and (max-width: 480px) 
 {
+  
   h1 
   {
     font-size: .7em;
+
+  }
+  h1 strong
+  {
+    color:#06B516;
+  }
+  .hero
+  {
+    height: 40px;
 
   }
   .event-detail 
@@ -566,10 +589,6 @@ a:hover
   {
   	width: 100vw;
   }
-  /*.imageContainer
-  {
-  	width: 100vw;
-  }*/
   a:hover
   {
   	background-color: none;
@@ -580,12 +599,18 @@ a:hover
 @media screen and (max-width: 320px) 
 {
   h1 
+  { 
+    font-size: .6em;
+    align-items: center;
+      background: rgba(0,0,0,.5);
+  }
+  h1 strong
   {
-    font-size: .8em;
-    /* background: rgba(0,0,0,.5) */
+    color: #06B516;
   }
   .hero 
   {
+    height:50px;
     padding: 2em 1em;
 
   }
