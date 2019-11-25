@@ -266,7 +266,7 @@ a:hover
 
 .event img
 {
-	width: 100%;
+	width: 480%;
 	height: 200px;
 	object-fit: cover;
 }
