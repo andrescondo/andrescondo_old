@@ -105,6 +105,23 @@ h2
 	object-fit: cover;
 }
 
+.program
+{
+  background:#fff;
+  display: block;
+  padding:10px;
+  color: #000;
+  text-transform: uppercase;
+  border:1px solid #000;
+  border-radius: 5px;
+}
+
+.program a
+{
+  text-decoration: none;
+  color:#000;
+}
+
 .portafolio
 {
 	background: #E7E4E4;
@@ -198,13 +215,13 @@ figure
 	padding: 0px 10px;
 }
 
-a:hover 
+/*a:hover 
 {
 	background-color: #8de739;
 	color:#000;
 	border-radius: 5px;
 
-}
+}*/
 
 /*==========================FOOTER===========================*/
  .footer 
@@ -350,6 +367,7 @@ a:hover
 
 }
 
+
 /*================================================*/
 .container
 {
@@ -417,10 +435,6 @@ a:hover
     font-size: .8em;
     z-index: 2;
     margin-top: 0px;
-  }
-  a:hover
-  {
-  	background-color: none;
   }
 
 }
@@ -522,11 +536,7 @@ a:hover
   {
     width: 100%;
   }
-  a:hover
-  {
-  	background-color: none;
-  }
-}
+ }
 
 @media screen and (max-width: 480px) 
 {
@@ -590,11 +600,7 @@ a:hover
   {
   	width: 100vw;
   }
-  a:hover
-  {
-  	background-color: none;
-  }
-}
+ }
 	
 
 @media screen and (max-width: 320px) 
@@ -622,10 +628,6 @@ a:hover
   .event-list
   {
   	width: 100vw;
-  }
-  a:hover
-  {
-  	background-color: none;
   }
 
 }
