@@ -112,10 +112,16 @@ h2
   padding:10px;
   color: #000;
   text-transform: uppercase;
-  border:1px solid #000;
-  border-radius: 5px;
+  
 }
 
+.program li
+{
+  border:1px solid #000;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+}
 .program a
 {
   text-decoration: none;
