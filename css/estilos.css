@@ -314,10 +314,10 @@ figure
 {
   background-image: url('../image/linkedin.svg');
 }
-.social-link.facebook 
+/*.social-link.facebook 
 {
   background-image: url('../image/facebook.svg');
-}
+}*/
 .social-link.github 
 {
   background-image: url('../image/github.svg');
@@ -431,7 +431,7 @@ figure
 }
 
 
-@media screen and (max-width: 320px) 
+@media screen and (max-width: 764px) 
 {
   .hero
   {
