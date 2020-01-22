@@ -159,15 +159,6 @@ h2
 	width: 100%;
 }
 
-/*.project-imageContainer
-{
-	width: 40%;
-}
-
-.project-imageContainer img
-{
-	max-width: 100%;
-}*/
 	
 .menu
 {
@@ -228,14 +219,6 @@ figure
 	padding: 0px 10px;
 }
 
-/*a:hover 
-{
-	background-color: #8de739;
-	color:#000;
-	border-radius: 5px;
-
-}*/
-
 /*==========================FOOTER===========================*/
  .footer 
  {
@@ -278,11 +261,6 @@ figure
 	background: #f4fbff;
 }
 
-/*.imageContainer
-{
-	width: 480px;
-	height: 200px;
-}*/
 
 .event-detail
 {
@@ -355,7 +333,7 @@ figure
 	border-style: solid;
 	padding: 10px 20px 10px 25px;
 	border-radius: 5px;
-	background-image:url(../image/envelope.svg); 
+	background-image:url('../image/envelope.svg'); 
 	background-size: 15px 15px;
 	background-repeat:no-repeat;
 	background-position-y:center;
