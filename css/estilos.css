@@ -327,6 +327,11 @@ figure
   background-image: url('../image/instagram.svg');
 }
 
+.social-link.twitter
+{
+  background-image: url('../image/twitter.svg');
+}
+
 .form-email input
 {
 	border-color: gray;
