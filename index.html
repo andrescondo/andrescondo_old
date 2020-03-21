@@ -81,6 +81,14 @@
 						</li>
 					</ol>
 				</nav>
+				<h3>Intermedio</h3>
+				<nav class="program">
+					<ol>
+						<li>
+							<a class="program-link" href="#" id="soon">Proyect the movies, usando API para sus busquedas</a>
+						</li>
+					</ol>
+				</nav>
 			</div>
 		</div>
 
@@ -186,6 +194,11 @@
 		</footer>
 
 		<script>
+			const soon = document.getElementById('soon');
+			soon.addEventListener('click',soonButton);
+				function soonButton(){
+					alert('Proximamente');
+				}
       // console.log('Hola mundo! es mi primera linea en JS');
       const ipad = window.matchMedia('screen and (max-width: 767px)')
       const menu = document.querySelector('.menu');
