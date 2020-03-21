@@ -530,8 +530,8 @@ figure
     justify-content: center;
     height: 40px;
     font-size: 2em;
-    text-decoration: underline;
-    margin-bottom: .5em;
+    text-decoration: none;
+    margin-bottom: 2em;
   }
   .header .logo 
   {
