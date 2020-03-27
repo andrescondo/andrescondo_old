@@ -377,6 +377,7 @@ figure
 /*=====================================================*/
 
 .burger-button {
+  background: url('../image/menu.svg');
   width: 40px;
   height: 40px;
   border-radius: 50%;
