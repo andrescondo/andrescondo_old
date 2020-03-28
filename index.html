@@ -199,27 +199,28 @@
 		</footer>
 
 		<script>
-			const soon = document.getElementById('soon');
-			soon.addEventListener('click',soonButton);
-				function soonButton(){
-					alert('Proximamente');
-				}
+		
+			// const soon = document.getElementById('soon');
+			// soon.addEventListener('click',soonButton);
+			// 	function soonButton(){
+			// 		alert('Proximamente');
+			// 	}
 
       // console.log('Hola mundo! es mi primera linea en JS');
-      const ipad = window.matchMedia('screen and (max-width: 767px)')
+      const ipad = window.matchMedia('screen and (max-width: 767px)');
       const menu = document.querySelector('.menu');
       // console.log(menu);
       const burgerButton = document.querySelector('#burger-menu');
       // console.log(burgerButton);
 
 
-      ipad.addListener(validation)
+      ipad.addListener(validation);
 
       function validation(event) {
         if (event.matches) {
-          burgerButton.addEventListener('click', hideShow)
+          burgerButton.addEventListener('click', hideShow);
         } else {
-          burgerButton.removeEventListener('click', hideShow)
+          burgerButton.removeEventListener('click', hideShow);
         }
       }
       validation(ipad);
