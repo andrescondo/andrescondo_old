@@ -40,13 +40,18 @@ celeste #026fff;
   content: "\e900";
 }
 
-
+:root
+{
+  /*color*/
+  --grey-light-color(#e7e4e4)
+}
 
 body
 {
 	font-family: 'sourcesans', sans-serif;
 	margin: 0px;
 	background-color: #E7E4E4;
+
 }
 
 h1,h2,h3,h3,h4,h5,h6
@@ -163,15 +168,16 @@ h2
 	
 .menu
 {
-	background: #2d2d2d;
+	background: var(--grey-light-color);
 }
 
+/*======================================*/
 .header
 {
-	background: #2d2d2d;
+	background: var(--grey-light-color);
 	color: #fff;
 	display: flex;
-	height: 70px;
+	height: 90px;
 	align-items: center;
 	justify-content: space-between;
 	flex-wrap: wrap;
@@ -191,7 +197,9 @@ figure
 
 .header a
  {
- 	color: #fff;
+  background: var(--grey-light-color);
+ 	color: #000;
+  margin: 0 20px;
  	text-decoration: none;
  }
 
@@ -219,6 +227,25 @@ figure
 	height: inherit;
 	padding: 0px 10px;
 }
+
+/*================================================*/
+.container
+{
+  flex: 1; /*Sirve para darle el 100% del espacio disponible*/
+  margin: 0px auto;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
+  flex-wrap: inherit;
+}
+.container img
+{
+  color: #fff;
+  background: #FFF;
+  height:100%;
+}
+/*=====================================================*/
 
 /*==========================FOOTER===========================*/
  .footer 
@@ -362,19 +389,7 @@ figure
 }
 
 
-/*================================================*/
-.container
-{
-	max-width: 1000px;
-	flex: 1; /*Sirve para darle el 100% del espacio disponible*/
-	margin: 0px auto;
-	display: inherit;
-	justify-content: inherit;
-	align-items: inherit;
-	height: inherit;
-	flex-wrap: inherit;
-}
-/*=====================================================*/
+
 
 .burger-button {
   width: 40px;
@@ -435,7 +450,7 @@ figure
 
 @media screen and (min-width: 765px)
 {
-  .fadeIn
+  .fade_In
   {
     -webkit-animation-duration: 3s;
     -webkit-animation-fill-mode:both;

@@ -1,19 +1,48 @@
 @font-face
 {
 	font-family: sourcesans;
-	src:url(../fuentes/Source/Source-Regular.ttf);
+	src:url(../fuentes/SourceSansPro-Regular.ttf);
 }
 
 @font-face
 {
-	font-family: source-light;
-	src:url(../fuentes/Source/Source-Italic.ttf);
+  font-family: sourcesans-black;
+  src:url(../fuentes/sourcesans-black.ttf);
 }
 
 @font-face
 {
-	font-family: source-Bold;
-	src:url(../fuentes/Source/Source-Bold.ttf);
+  font-family: sourcesans-blackitalic;
+  src:url(../fuentes/SourceSansPro-blackItalic.ttf);
+}
+
+@font-face
+{
+  font-family: sourcesans-bold;
+  src:url(../fuentes/SourceSansPro-Bold.ttf);
+}
+@font-face
+{
+  font-family: sourcesans-italic;
+  src:url(../fuentes/SourceSansPro-BoldItalic.ttf);
+}
+
+@font-face
+{
+  font-family: sourcesans-italiclight;
+  src:url(../fuentes/SourceSansPro-LightItalic.ttf);
+}
+
+@font-face
+{
+  font-family: sourcesans-semiblod;
+  src:url(../fuentes/SourceSansPro-SemiBold.ttf);
+}
+
+@font-face
+{
+  font-family: sourcesans-italicblod;
+  src:url(../fuentes/SourceSansPro-SemiBoldItalic.ttf);
 }
 
 
