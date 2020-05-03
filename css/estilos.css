@@ -39,18 +39,25 @@ celeste #026fff;
 .icon-menu:before {
   content: "\e900";
 }
-
+/*=============================*/
 :root
 {
   /*color*/
-  --grey-light-color(#e7e4e4)
+  --white-color:#F4F4F4;
+  --grey-light-color:#e7e4e4;
+  --celeste-color:#35CFF1;
+  /*letra*/
+  --font-18:18px;
 }
+/*=============================*/
+
 
 body
 {
 	font-family: 'sourcesans', sans-serif;
 	margin: 0px;
-	background-color: #E7E4E4;
+	background-color: var(--white-color);
+  font-size: var(--font-18);
 
 }
 
@@ -143,7 +150,7 @@ h2
 
 .portafolio
 {
-	background: #E7E4E4;
+	background: var(--white-color);
 	padding: 20px;
 }
 
@@ -168,13 +175,15 @@ h2
 	
 .menu
 {
-	background: var(--grey-light-color);
+	/*background: var(--grey-light-color);*/
+  font-size: 20px;
+  font-family: sourcesans-semiblod, sans-serif;
 }
 
 /*======================================*/
 .header
 {
-	background: var(--grey-light-color);
+	background: var(--white-color);
 	color: #fff;
 	display: flex;
 	height: 90px;
@@ -197,7 +206,7 @@ figure
 
 .header a
  {
-  background: var(--grey-light-color);
+  background: var(--white-color);
  	color: #000;
   margin: 0 20px;
  	text-decoration: none;
@@ -663,6 +672,7 @@ figure
   }
   .portafolio
   {
+
   	width: 100vw;
   }
  }
