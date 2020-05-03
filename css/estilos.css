@@ -45,7 +45,7 @@ celeste #026fff;
   /*color*/
   --white-color:#F4F4F4;
   --grey-light-color:#e7e4e4;
-  --celeste-color:#35CFF1;
+  --celeste-color:#3FBFDC;
   /*letra*/
   --font-18:18px;
 }
@@ -69,18 +69,19 @@ h1,h2,h3,h3,h4,h5,h6
 
 h1
 {	
+
 	font-size: 25px;
 	line-height: 1.5;
 	letter-spacing: -.2px;
 	color: #fff;  
 	position: absolute;
-	top: 10px;
+	top:center;
+  right: center;
 	align-items: center;
 	justify-content: center;
 	background: rgba(0,0,0,.3);
 	text-transform: uppercase;
-	margin-left:15px;
-	margin-top: 40px;
+	margin: auto;
 
 }
 	
@@ -101,12 +102,11 @@ h2
 
 .hero
 {
-	height: 300px;
-	/*background-color:#1d2127 ;*/
-  background: linear-gradient(to right, #1d2127, #E7E4E4);
+	height: 100vh;
+  /*background: linear-gradient(to right, #1d2127, #E7E4E4);*/
 	display: flex;
-	align-items: center; /*centrar en el heigth*/
-	justify-content: space-between; /*mandarlos hacia la izquierda*/
+	align-items: center; 
+	justify-content: space-between;
 	flex-wrap: wrap;
 	position: relative;
 }
@@ -121,7 +121,7 @@ h2
 .hero-image
 {
 	width: 100%;
-	height: 100%;
+	height: 100vh;
 	object-fit: cover;
 }
 
@@ -204,28 +204,19 @@ figure
 	margin: 0px;
 }
 
-.header a
- {
-  background: var(--white-color);
- 	color: #000;
-  margin: 0 20px;
- 	text-decoration: none;
- }
 
  .menu
 {
-	height: inherit;
+	/*height: inherit;*/
 }
 
 .header ol
 {
 	display: flex;
-	height: inherit;
 }
 
 .header ol li 
 {
-	height: inherit;
 	align-items: center;
 }
 
@@ -233,9 +224,17 @@ figure
 {
 	display: flex;
 	align-items: center;    
-	height: inherit;
-	padding: 0px 10px;
 }
+.header a
+ {
+  padding: 10px 20px; 
+  background: var(--celeste-color);
+  color: #000;
+  margin: 0 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  text-shadow: var(--celeste-color);
+ }
 
 /*================================================*/
 .container
