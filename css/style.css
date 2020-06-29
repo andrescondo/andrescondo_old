@@ -61,6 +61,7 @@ body
 {
 	font-family: 'sourcesans', sans-serif;
 	margin: 0px;
+  padding: 0px;
 	background-color: var(--black-color);
   font-size: var(--font-18);
 
@@ -79,7 +80,7 @@ h1
 	font-size: 36px;
 	line-height: 1.5;
 	letter-spacing: -.2px;
-	color:var(--letter-white-color);
+	color:var(--white-color);
   font-family: sourcesans-bold;  
 	position: absolute;
 	top:50%;
@@ -87,8 +88,13 @@ h1
 	background: rgba(0,0,0,.3);
 	text-transform: uppercase;
   transform: translate(-50%, -50%);
+}
 
-
+h3{
+  color:var(--white-color);
+  font-size: 20px;
+  text-transform: uppercase;
+  padding:0 0 0 20px;
 }
 .fadeIn
 {
@@ -147,37 +153,76 @@ h2
   padding: 10px;
   margin: 5px;
 }
-.program a
-{
+.program a {
   text-decoration: none;
   color:#000;
 }
 
-.portafolio
-{
+.portafolio {
 	background: var(--black-color);
 	padding: 20px;
 }
 
-.project
-{
+.project {
+  width: 85vw;
+  height:170px;
+  margin: auto;
 	border:1px solid grey;
 	border-radius: 10px;
 	margin-bottom: 15px;
-	padding: 20px;
+	padding: 10px;
 	background: var(--white-shadow-1);
   color:var(--white-color);
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	flex-wrap: wrap;
+  
 }
 
-.project-detail
-{
-	width: 100%;
+.project {
+  display: grid;
+  grid-template-columns:1fr ;
+  grid-template-rows: 35px 90px 42px;
+  grid-template-areas:"project-title" 
+                      "project-details "
+                      " project-Button" ;
+
 }
 
+.project-title {
+  grid-area: project-title;
+  font-size: 20px;
+  margin:7px;
+}
+.project-details {
+  display: grid;
+  margin: 5px 0 5px 0;
+  margin-left: 20px;
+  grid-area: project-details;
+}
+.project-Button {
+  grid-area: project-Button;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.project-Button-start{
+  color:var(--white-color);
+  padding: 7px 15px;
+  background:var(--white-shadow-1);
+  border:1px solid #ddd;
+  border-radius: 15px;
+  text-decoration: none;
+  margin:10px;  
+}
+.project-Button-github {
+  color:var(--white-color);
+  padding: 7px 20px;
+  background:var(--white-shadow-1);
+  border:1px solid #ddd;
+  border-radius: 15px;
+  text-decoration: none;
+  margin:10px;
+
+}
 	
 .menu
 {
@@ -466,7 +511,7 @@ figure
     font-size: .8em;
     z-index: 2;
     margin: auto;
-    color: var(--letter-white-color);
+    color: var(--white-color);
   }
 
 }
@@ -632,7 +677,7 @@ figure
   h1 
   {
     font-size: .7em;
-    color:var(--letter-white-color);
+    color:var(white-color);
 
   }
   h1 strong
