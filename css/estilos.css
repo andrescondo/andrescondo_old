@@ -43,11 +43,14 @@ celeste #026fff;
 :root
 {
   /*color*/
+  --black-color:;
   --white-color:#F4F4F4;
   --grey-light-color:#e7e4e4;
   --celeste-color:#3FBFDC;
+  --letter-white-color: #ddd;
   /*letra*/
   --font-18:18px;
+
 }
 /*=============================*/
 
@@ -67,16 +70,18 @@ h1,h2,h3,h3,h4,h5,h6
 	font-weight: normal;
 }
 
+
 h1
 {	
 
 	font-size: 25px;
 	line-height: 1.5;
 	letter-spacing: -.2px;
-	color: #fff;  
+	color: #var(--letter-white-color);  
 	position: absolute;
 	top:center;
   right: center;
+  left: center;
 	align-items: center;
 	justify-content: center;
 	background: rgba(0,0,0,.3);
@@ -84,7 +89,10 @@ h1
 	margin: auto;
 
 }
-	
+.fadeIn
+{
+  margin: auto;
+}	
 
 h1 strong
 {
@@ -252,6 +260,15 @@ figure
   color: #fff;
   background: #FFF;
   height:100%;
+}
+
+.container .title-logo
+{
+  font-family: permanent-marker;
+  color:#121212;
+  padding: 0 0 0 20px;
+  font-size: 28px;
+
 }
 /*=====================================================*/
 

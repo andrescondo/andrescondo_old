@@ -29,6 +29,12 @@
 
 @font-face
 {
+  font-family:permanent-marker;
+  src:url(../fuentes/PermanentMarker-Regular.ttf);
+}
+
+@font-face
+{
   font-family: sourcesans-italiclight;
   src:url(../fuentes/SourceSansPro-LightItalic.ttf);
 }
