@@ -43,11 +43,13 @@ celeste #026fff;
 :root
 {
   /*color*/
-  --black-color:;
-  --white-color:#F4F4F4;
+  --black-color:#121212;
   --grey-light-color:#e7e4e4;
   --celeste-color:#3FBFDC;
-  --letter-white-color: #ddd;
+  --white-color: #ddd;
+  --black-shadow-7:rgba(18, 18, 18,0.7);
+  --white-shadow-1:rgba(255,255,255,0.1);
+
   /*letra*/
   --font-18:18px;
 
@@ -59,7 +61,7 @@ body
 {
 	font-family: 'sourcesans', sans-serif;
 	margin: 0px;
-	background-color: var(--white-color);
+	background-color: var(--black-color);
   font-size: var(--font-18);
 
 }
@@ -73,20 +75,19 @@ h1,h2,h3,h3,h4,h5,h6
 
 h1
 {	
-
-	font-size: 25px;
+  display: flex;
+	font-size: 36px;
 	line-height: 1.5;
 	letter-spacing: -.2px;
-	color: #var(--letter-white-color);  
+	color:var(--letter-white-color);
+  font-family: sourcesans-bold;  
 	position: absolute;
-	top:center;
-  right: center;
-  left: center;
-	align-items: center;
-	justify-content: center;
+	top:50%;
+  left: 50%;
 	background: rgba(0,0,0,.3);
 	text-transform: uppercase;
-	margin: auto;
+  transform: translate(-50%, -50%);
+
 
 }
 .fadeIn
@@ -94,14 +95,10 @@ h1
   margin: auto;
 }	
 
-h1 strong
-{
-	color: #0C2680;
-}
 
 h2
 {
-	color: #0C2680;
+	color: var(--white-color);
 	text-transform:uppercase;
 	font-weight: bold;
 	font-size: 24px;
@@ -158,7 +155,7 @@ h2
 
 .portafolio
 {
-	background: var(--white-color);
+	background: var(--black-color);
 	padding: 20px;
 }
 
@@ -168,7 +165,8 @@ h2
 	border-radius: 10px;
 	margin-bottom: 15px;
 	padding: 20px;
-	background: #fff;
+	background: var(--white-shadow-1);
+  color:var(--white-color);
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -236,12 +234,13 @@ figure
 .header a
  {
   padding: 10px 20px; 
-  background: var(--celeste-color);
-  color: #000;
+  background: var(--white-shadow-1);
+  color: var(--letter-white-color);
   margin: 0 20px;
   border-radius: 30px;
   text-decoration: none;
   text-shadow: var(--celeste-color);
+  border: 1px solid #ddd;
  }
 
 /*================================================*/
@@ -254,20 +253,17 @@ figure
   align-items: inherit;
   height: inherit;
   flex-wrap: inherit;
+  background: var(--black-color)
 }
-.container img
-{
-  color: #fff;
-  background: #FFF;
-  height:100%;
-}
+
 
 .container .title-logo
 {
   font-family: permanent-marker;
-  color:#121212;
+  color:var(--letter-white-color);
   padding: 0 0 0 20px;
   font-size: 28px;
+  align-items: center;
 
 }
 /*=====================================================*/
@@ -463,12 +459,14 @@ figure
     top: 0;
     bottom: 0;
     width: 100%;
+    opacity: 70%;
   }
   h1 
   {
     font-size: .8em;
     z-index: 2;
-    margin-top: 0px;
+    margin: auto;
+    color: var(--letter-white-color);
   }
 
 }
@@ -634,11 +632,12 @@ figure
   h1 
   {
     font-size: .7em;
+    color:var(--letter-white-color);
 
   }
   h1 strong
   {
-    color:#06B516;
+    color:var(--letter-white-color);
   }
   .hero
   {
@@ -704,7 +703,7 @@ figure
   }
   h1 strong
   {
-    color: #06B516;
+    color: var(--letter-white-color);
   }
   .hero 
   {
