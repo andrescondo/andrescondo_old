@@ -7,16 +7,19 @@
     "doc": "doc"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    
   },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/andrescondo/andrescondo.git"
   },
+
   "author": "Andres Condo 01andresC01@gmail ",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/andrescondo/andrescondo/issues"
   },
+
   "homepage": "https://github.com/andrescondo/andrescondo#readme"
 }
