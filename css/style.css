@@ -202,7 +202,6 @@ h2
 }
 .project {
   width: 85vw;
-  height:170px;
   margin: auto;
 	border:1px solid grey;
 	border-radius: 10px;
@@ -360,16 +359,19 @@ figure
  	justify-content: center;
  	flex-wrap: wrap;
 }
+.footer-text {
+  padding: 10px 0;
+}
 
-.footer img
+/*.footer img
 {
 	vertical-align: middle;
-}
+}*/
 
-.footer a
+/*.footer a
 {
 	color: #fff;
-}
+}*/
 
 
 .contact {
@@ -562,7 +564,7 @@ figure
 
   h1
   {
-    font-size: .6em;
+    font-size: .7em;
   }
 
   h2 
@@ -627,36 +629,40 @@ figure
     left: 0;
   }
 
-  .project 
-  {
+  .project {
     display: block;
   }
-  .project-imageContainer 
-  {
+  .project-imageContainer {
     width: auto;
     text-align: center;
   }
-  .project-detail 
-  {
+  .project-detail {
     width: auto;
     /* font-size: 10px; */
   }
 
-  .project-title 
-  {
-    font-size: 1.5em;
+  .project-title {
+    font-size: 0.9em;
     margin-bottom: .3em;
   }
-  .event 
-  {
-    width: 100%;
-    flex-shrink: initial;
+
+  .project-title p{
+    font-size: 0.8em;
   }
 
-  .event img 
-  {
-    width: 100%;
+  .contact-info {
+    margin:auto;
+    text-align: center;
   }
+
+  .contact-social {
+    margin:auto;
+  }
+  .contact-social p {
+    text-align: center;
+ }
+
+
  }
 
 @media screen and (max-width: 480px) 
