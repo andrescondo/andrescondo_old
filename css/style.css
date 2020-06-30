@@ -375,17 +375,40 @@ figure
 
 .contact {
   background: var(--white-shadow-1);
-  height: 150px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  border-top: 1px solid var(--white-color);
+
 }
 
-.social {
+.contact-info {
+  color: var(--white-color);
+  padding-left: 20px;
+  padding-right: 20px;
+/*  border-right-height: 1px solid var(--white-color);
+*/
+}
+.contact-info h5 {
+  font-size: 20px;
+  margin: 20px 0;
+  font-weight: bold;
 }
 
-.social-link 
+.contact-info p {
+  margin: 10px 0;
+}
+.contact-social {
+  margin: 20px 30px;
+}
+
+.contact-social p{
+  color: var(--white-color);
+  font-size: 20px;
+  font-weight: bold;
+}
+.contact-social-link 
 {
   display: inline-block;
   width: 50px;
@@ -395,54 +418,24 @@ figure
   color: #fff;
 }
 
-.social-link.linkein
-{
+.contact-social-link.linkein {
   background-image: url('../image/linkedin.svg');
 }
 
-.social-link.github 
-{
+.contact-social-link.github {
   background-image: url('../image/github.svg');
 }
-.social-link.instagram 
-{
+
+.contact-social-link.instagram  {
   background-image: url('../image/instagram.svg');
 }
 
-.social-link.twitter
-{
+.contact-social-link.twitter {
   background-image: url('../image/twitter.svg');
 }
 
-.form-email input
-{
-	border-color: gray;
-	border-style: solid;
-	padding: 10px 20px 10px 25px;
-	border-radius: 5px;
-	background-image:url('../image/envelope.svg'); 
-	background-size: 15px 15px;
-	background-repeat:no-repeat;
-	background-position-y:center;
-	background-position-x:5px;   
-
-}
-
-.form-email button
-{
-	display: block;
-	background: transparent;
-	color: #000;
-	padding: 10px 0;
-	border-radius: 5px;
-	width: 100px;
-	margin-top: 10px;
-}
-
-.form-email h3
-{
-	font-family: 'sourcesans', sans-serif;
-
+.contact-social-link.facebook {
+  background-image: url(../image/facebook.svg)
 }
 
 
