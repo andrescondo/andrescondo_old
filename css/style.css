@@ -567,8 +567,8 @@ figure
 
 }
 
-@media screen and (max-width: 764px) 
-{
+
+@media screen and (max-width: 764px) {
   .hero
   {
     height: 40px;
@@ -678,8 +678,7 @@ figure
 
  }
 
-@media screen and (max-width: 480px) 
-{
+@media screen and (max-width: 480px) {
   
   h1 
   {
@@ -687,6 +686,7 @@ figure
     color:var(--white-color);
 
   }
+  
 
   .contact 
   {
@@ -733,6 +733,7 @@ figure
   .help-instruction {
     font-size: 1em;
   }
+
  }
 	
 
