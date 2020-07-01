@@ -199,6 +199,7 @@ h2
 
 .knowing-box_text {
   color: var(--white-color);
+  text-align: center;
 }
 .project {
   width: 85vw;
@@ -575,6 +576,7 @@ figure
   .title-logo {
     display: flex;
     justify-content: center;
+    margin: 7px;
   }
   .burger-button 
   {
@@ -675,12 +677,6 @@ figure
 
   }
 
-  .hero
-  {
-    height: 40px;
-
-  }
-
   .contact 
   {
     height: auto;
@@ -688,13 +684,16 @@ figure
     text-align: center;
     display: block;
   }
-  .form-email button 
-  {
-    margin: 1em auto;
+  .project h4 {
+    text-align: center;
+    padding-bottom: 10px;
   }
-  .form-email h3 
-  {
-    margin-top: 0;
+  .project-details {
+    padding: 8px 0px;
+  }
+  .project-Button a {
+    font-size: 0.8em; 
+    padding: 7px 8px;
   }
   .footer 
   {
