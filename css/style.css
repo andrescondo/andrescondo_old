@@ -34,11 +34,10 @@
 {
   /*color*/
   --black-color:#121212;
-/*  --grey-light-color:#e7e4e4;
-  --celeste-color:#3FBFDC;*/
   --white-color: #ddd;
   --black-shadow-7:rgba(18, 18, 18,0.7);
   --white-shadow-1:rgba(255,255,255,0.1);
+  --white-shadow-5:rgba(255,255,255,0.3);
 
   /*letra*/
   --font-18:18px;
@@ -75,7 +74,7 @@ h1
 	position: absolute;
 	top:50%;
   left: 50%;
-	background: rgba(0,0,0,.3);
+	background: rgba(0,0,0,.5);
 	text-transform: uppercase;
   transform: translate(-50%, -50%);
 }
@@ -101,6 +100,7 @@ h4 {
 .fadeIn
 {
   margin: auto;
+  padding: 15px;
 }	
 
 
@@ -293,26 +293,26 @@ figure
 	display: flex;
 }
 
-.header ol li 
-{
+.header ol li  {
 	align-items: center;
 }
 
-.header a
-{
+.header a {
 	display: flex;
 	align-items: center;    
 }
-.header a
- {
+.header a {
   padding: 10px 20px; 
   background: var(--white-shadow-1);
   color: var(--letter-white-color);
   margin: 0 20px;
   border-radius: 30px;
   text-decoration: none;
-  text-shadow: var(--celeste-color);
   border: 1px solid #ddd;
+ }
+
+ .header a:hover {
+  box-shadow: 7px 10px 10px var(--white-shadow-5);
  }
 
 /*================================================*/
