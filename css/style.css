@@ -190,6 +190,18 @@ h2
 .knowing-box_text {
   color: var(--white-color);
   text-align: center;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}
+.knowing-box a{
+  display: flex;
+  color: var(--white-color);
+  justify-content: center;
+}
+.knowing-box_more{
+  display: flex;
+  margin: auto;
+  color:var(--white-color);
 }
 .project {
   width: 85vw;
@@ -312,7 +324,8 @@ figure
  }
 
  .header a:hover {
-  box-shadow: 7px 10px 10px var(--white-shadow-5);
+  box-shadow: 0px 8px 15px 0px var(--white-shadow-5);
+  -webkit-box-shadow:0px 8px 15px 0px var(--white-shadow-5);
  }
 
 /*================================================*/
