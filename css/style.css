@@ -39,6 +39,9 @@
   --white-shadow-1:rgba(255,255,255,0.1);
   --white-shadow-5:rgba(255,255,255,0.3);
 
+  --blue-color:#7b85ca;
+  --green-color:#00FA9A;
+
   /*letra*/
   --font-18:18px;
 
@@ -94,6 +97,7 @@ h3 {
 h4 {
   font-size: 20px;
   padding:0 0 0 10px;
+  color:var(--green-color);
 
 }
 
@@ -174,12 +178,13 @@ h2
 }
 
 .knowing-box_title {
-  color: var(--white-color);
+  color: var(--green-color);
   background: var(--white-shadow-1);
   font-weight: bold;
   padding:15px;
   border-radius: 15px;
-  border:1px solid var(--white-color);
+  border:2px solid var(--blue-color);
+  box-shadow: 1px 1px 5px var(--green-color);
 
 }
 
@@ -206,12 +211,13 @@ h2
 .project {
   width: 85vw;
   margin: auto;
-	border:1px solid grey;
+	border:1px solid var(--blue-color);
 	border-radius: 10px;
 	margin-bottom: 15px;
 	padding: 10px;
 	background: var(--white-shadow-1);
   color:var(--white-color);
+  box-shadow: 1px 1px 5px var(--green-color);
   
 }
 
@@ -247,7 +253,7 @@ h2
   color:var(--white-color);
   padding: 7px 15px;
   background:var(--white-shadow-1);
-  border:1px solid #ddd;
+  border:2px solid var(--blue-color);
   border-radius: 15px;
   text-decoration: none;
   margin:10px;  
@@ -256,7 +262,7 @@ h2
   color:var(--white-color);
   padding: 7px 20px;
   background:var(--white-shadow-1);
-  border:1px solid #ddd;
+  border:2px solid var(--blue-color);
   border-radius: 15px;
   text-decoration: none;
   margin:10px;
@@ -320,7 +326,8 @@ figure
   margin: 0 20px;
   border-radius: 30px;
   text-decoration: none;
-  border: 1px solid #ddd;
+  border: 2px solid var(--blue-color);
+  box-shadow: 1px 1px 5px var(--green-color);
  }
 
  .header a:hover {
