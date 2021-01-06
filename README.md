@@ -18,8 +18,8 @@ SIMON DICE 🏆
 Sitio web interactivo de un juego donde hay que ir siguiendo la secuencia mostrada en pantalla hasta llegar al décimo nivel.
 
 **Los programa hechos en Python**
-CONVERTIDOS MULTIMEDIA 🎶
+CONVERTIDOS MULTIMEDIA 🎶  
 Creado con una interfaz amigable y accesible para los usuarios. Hecho para la conversión de formatos multimedia, siendo capaz de convertir videos en audios sin la perdidad de calidad, inclusive pudiendo convertir otros formatos de audio, al *mp4* o *awm*.
 
-PROGRESIONES ARITMÉTICA 🧮
+PROGRESIONES ARITMÉTICA 🧮 
 Programa capaz de ayudar a solucionar problemas de progresiones, solo ingresando los valores, el programa usa modulos para una mayor eficiencia al resolver los problemas y así mostrarlo en pantalla
