@@ -1,4 +1,4 @@
-@import url("fuentes.css");
+/*@import url("fuentes.css");*/
 
 @font-face {
   font-family: 'icomoon';
@@ -73,7 +73,7 @@ h1
 	line-height: 1.5;
 	letter-spacing: -.2px;
 	color:var(--white-color);
-  font-family: sourcesans-bold;  
+  font-weight: 700;
 	position: absolute;
 	top:50%;
   left: 50%;
