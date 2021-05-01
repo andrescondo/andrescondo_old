@@ -117,8 +117,7 @@ h2
 	margin-bottom: 40px;
 }
 
-.hero
-{
+.hero{
 	height: 100vh;
   /*background: linear-gradient(to right, #1d2127, #E7E4E4);*/
 	display: flex;
@@ -128,22 +127,19 @@ h2
 	position: relative;
 }
 
-.logo img
-{
+.logo img{
     height: 70px;
     width:110px;
     overflow: hidden;
 }
 
-.hero-image
-{
+.hero-image{
 	width: 100%;
 	height: 100vh;
 	object-fit: cover;
 }
 
-.program
-{
+.program{
   background:#fff;
   display: block;
   padding:10px;
@@ -152,8 +148,7 @@ h2
   
 }
 
-.program li
-{
+.program li{
   border:1px solid #000;
   border-radius: 5px;
   padding: 10px;
@@ -349,7 +344,8 @@ figure
 
 
   .title-logo {
-  font-family: permanent-marker;
+  font-family: 'sourcesans', sans-serif;
+  font-style: italic;
   color:var(--letter-white-color);
   padding: 0 0 0 20px;
   font-size: 28px;
